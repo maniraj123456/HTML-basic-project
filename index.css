@@ -21,9 +21,13 @@ input {
   justify-content: center;  
 }
 .submit-button {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: 5% 5%;
   text-align: center;
 }
-.container-main
+
+.main-container
 {
   border: 5px solid blue;
   display: flex;
@@ -48,6 +52,8 @@ section{
   justify-content: center; 
   border: 2px solid black;
   background-color: rgb(242, 237, 249);
+  background-image: url(hibuscus.jpeg);
+  background-repeat: repeat-x repeat-y;
 }
 
 
