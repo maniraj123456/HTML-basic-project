@@ -1,0 +1,44 @@
+<header>
+  <link rel="stylesheet" href="index.css" />
+  <script src="index.js"></script>
+</header>
+<body>
+  <section>
+    <div class="main-container">
+      <div class="container">
+        <div class="heading">
+          <h1>Login Page</h1>
+        </div>
+        <div class="email">
+          <input
+            type="email"
+            placeholder="email"
+            id="email"
+            maxlength="50"
+            minlength="10"
+          />
+        </div>
+        <div class="password">
+          <input
+            type="password"
+            placeholder="password"
+            id="password"
+            maxlength="50"
+            minlength="10"
+          />
+        </div>
+        <div class="submit-button">
+          <span class="btn-submit">
+            <button type="button" onclick="submit()">Submit</button>
+          </span>
+          <span class="btn-clear">
+            <button type="button" onclick="onClear()">clear</button>
+          </span>
+        </div>
+        <div class="message-block">
+          <p class="message"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>

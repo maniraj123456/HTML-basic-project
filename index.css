@@ -1,0 +1,64 @@
+.message {
+  display: block;
+  text-align: center;
+}
+input {
+  margin: 5px;
+  padding: 3px;
+}
+/* parent div of email-input */
+.email {
+  display: flex;
+  /* vertical,alignment  alignment center */
+  align-items: center; 
+  justify-content: center;  
+}
+/* parent div of password-input */
+.password {
+  display: flex;
+  /* vertical,alignment  alignment center */
+  align-items: center; 
+  justify-content: center;  
+}
+.submit-button {
+  text-align: center;
+}
+.container-main
+{
+  border: 5px solid blue;
+  display: flex;
+  /* vertical,alignment  alignment center */
+  align-items: center; 
+  justify-content: center; 
+}
+.container
+{
+  border: 2px solid red;
+  height: 80%;
+  width: 125%;
+  display: block;
+  text-align: center;
+  background-color: rgb(251, 250, 250);
+}
+section{
+  display: grid;
+  height: 100%;
+   /* vertical,alignment  alignment center */
+  align-items: center; 
+  justify-content: center; 
+  border: 2px solid black;
+  background-color: rgb(242, 237, 249);
+}
+
+
+.btn-submit
+{
+  align-items: center !important; 
+  justify-content: left !important; 
+}
+
+.btn-clear
+{
+  align-items: center !important; 
+  justify-content: right !important; 
+}
