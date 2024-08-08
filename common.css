@@ -1,0 +1,36 @@
+.button {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.primary {
+  background-color: white;
+  color: black;
+  border: 2px solid #008cba;
+}
+
+.primary:hover {
+  background-color: #008cba;
+  color: white;
+  text-decoration: underline;
+}
+
+.secondary {
+  background-color: white;
+  color: black;
+  border: 2px solid #04aa6d;
+}
+
+.secondary:hover {
+  background-color: #04aa6d;
+  color: white;
+  text-decoration: underline;
+}

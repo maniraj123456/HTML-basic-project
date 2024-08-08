@@ -1,0 +1,43 @@
+.container {
+  display: grid;
+  width: 70%;
+  height: 100%;
+}
+.card {
+  display: grid;
+}
+.heading {
+  text-align: center;
+}
+
+.food-img :hover {
+  height: 110px;
+  width: 110px;
+}
+
+.food-img {
+  height: 100px;
+  width: 100px;
+  transition: width height 0.5s;
+}
+
+img {
+  border: 1px solid red;
+}
+
+h2 {
+  color: lightgrey;
+}
+
+.heading {
+  align-items: center;
+}
+
+#error-message {
+  color: red;
+  display: none;
+}
+
+.important {
+  color: red;
+}
