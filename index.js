@@ -48,7 +48,7 @@ async function submit() {
 
     if (user != null && message != null) {
       message[0].innerHTML = "valid credentials";
-      window.location.href = "/homePage.html";
+      window.location.href = "/landingPage.html";
     } else if (message != null) {
       message[0].innerHTML = "Invalid credentials";
     }

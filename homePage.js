@@ -1,3 +1,9 @@
+function next()
+{
+  document.getElementById("quiz-name").style.display = 'none';
+  document.getElementById("next-button").style.display = 'none';
+  document.getElementById("questionnaire").style.display = "block";
+}
 function submit() {
   const questionsText = document.getElementsByClassName("questionText");
   const solutionsText = document.getElementsByClassName("solutionText");
@@ -29,13 +35,12 @@ function submit() {
     solutions: solutions,
     key: Math.floor(Math.random() * 100),
   };
-  let quizValue = JSON.stringify(quiz);
   if (localStorage.getItem("quizzes") == null || localStorage.getItem("quizzes").length == 0) 
   {
     let quizes = [];
-    quizes.push(quizValue);
+    quizes.push(quiz);
     localStorage.setItem("quizzes", JSON.stringify(quizes));
-    return;
+    window.location.href="/landingPage.html";
   } 
   else 
   {
@@ -43,8 +48,9 @@ function submit() {
     let quizzes = JSON.parse(existingQuizzes);
     while(quizzes.find(element => element.key === quiz.key))
       quiz.key = Math.floor(Math.random() * 100);
-    quizzes.push(quizValue);
+    quizzes.push(quiz);
     localStorage.setItem("quizzes", JSON.stringify(quizzes));
+    window.location.href="/landingPage.html";
   }
 
 }

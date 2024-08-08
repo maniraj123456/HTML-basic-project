@@ -26,3 +26,15 @@ h2 {
 .important {
   color: red;
 }
+.show
+{
+  display: block;
+}
+.hide
+{
+  display: none;
+}
+#questionnaire
+{
+  display: none;
+}
