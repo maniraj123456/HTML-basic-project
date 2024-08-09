@@ -10,13 +10,11 @@
   <section>
     <div class="container  mt-5">
       <div class="row justify-content-center" id="quiz-name">
-          <div class="col-4">
-            <input placeholder="Enter quiz name" minlength="4" required>
+          <div class="col-6">
+            <input placeholder="Enter quiz name" minlength="4" id="quiz-name-input" required>
           </div>
-          <div class="col-4">
-          </div>
-          <div class="col-4" id="next-button">
-            <button type="button" onclick="next()">next</button>
+          <div class="col-6" id="next-button">
+            <button  type="button" class="btn btn-primary"  onclick="next()">next</button>
           </div>
       </div>
       <div class="card" id="questionnaire">
@@ -103,12 +101,12 @@
         </div>
         <div class="row">
           <div class="col justify-content-center text-center">
-            <button type="button" class="primary" onclick="submit() ">
+            <button type="button" class="btn btn-success" onclick="submit() ">
               Submit
             </button>
           </div>
           <div class="col justify-content-center text-center">
-            <button type="button" class="secondary" onclick="clear()">
+            <button type="button" class="btn btn-secondary" onclick="clear()">
               clear
             </button>
           </div>
